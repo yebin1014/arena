@@ -1,0 +1,12 @@
+name: arena
+version: '${version}'
+main: me.yenu.arena.Arena
+api-version: '1.20'
+
+commands:
+  start:
+    usage: "/start"
+
+  endgame:
+    usage: "/endgame"
+

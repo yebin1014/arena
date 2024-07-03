@@ -1,0 +1,15 @@
+Spadesoldier:
+  Type: VINDICATOR
+  Display: '&aSpadesoldier'
+  Health: 20
+  Damage: 3
+  LevelModifiers:
+  -  health 10
+  - damage 2
+  Options:
+    Glowing: true
+    PreventOtherDrops: true
+    AttackSpeed: 1.0
+    MovementSpeed: 0.2
+  Skills:
+  - model{mid=spadesoldier;n=false} @self ~onSpawn

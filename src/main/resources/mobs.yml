@@ -1,0 +1,31 @@
+Heartsoldier:
+  Type: VINDICATOR
+  Display: '&aHeartsoldier'
+  Health: 10
+  Damage: 3
+  LevelModifiers:
+    -  health: 5
+    -  damage: 2
+  Options:
+    PreventOtherDrops: true
+    Glowing: true
+    AttackSpeed: 1.0
+    MovementSpeed: 0.3
+  Skills:
+    - model{mid=heartsoldier;n=false} @self ~onSpawn
+
+  Spadesoldier:
+    Type: VINDICATOR
+    Display: '&aSpadesoldier'
+    Health: 10
+    Damage: 3
+    LevelModifiers:
+      - health: 5
+      - damage: 2
+    Options:
+      Glowing: true
+      PreventOtherDrops: true
+      AttackSpeed: 1.0
+      MovementSpeed: 0.2
+    Skills:
+      - model{mid=spadesoldier;n=false} @self ~onSpawn
